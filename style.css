@@ -310,3 +310,52 @@ textarea{
    padding: 25px;
    color: white;
 }
+
+/* MEDIA QUERIES - SMARTPHONE VERSION */
+@media screen and (max-width: 600px) {
+   .nav-bar .nav-menu {
+     display: none;
+   }
+
+   .hero-text{
+      padding: 20px;
+      font-size: 30px;
+   }
+
+   .hero-text h1{
+      padding-top:200px;
+   }
+
+   .hero-text p{
+      font-size: 20px;
+   }
+
+   .contact-btn{
+      margin-top: 220px;
+   }
+
+   .skill-wrapper, .project-wrapper{
+      display: block;
+   }
+
+   .pro-img, .social-wrapper{
+      width: 100%
+   }
+
+   .overlay{
+      height: 190px;
+   }
+
+   .tools img{
+      width: 60px;
+   }
+
+   .contact-section{
+      padding: 0;
+   }
+
+   .contact-section h2{
+      font-size: 30px;
+   }
+ 
+ }
