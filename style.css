@@ -23,7 +23,7 @@
 .nav-bar .nav-menu{
    display: flex;
    list-style-type: none;
-   font-size: 30px;
+   font-size: 15px;
    padding: 30px;
    align-items: center;
    gap: 50px;
@@ -39,34 +39,34 @@
 .hero-text{
    color: white;
    text-align: center;
-   padding:600px;
-   font-size: 70px;
+   padding: 200px;
+   font-size: 40px;
    font-weight: bold;
    line-height:1.5;
 }
 
 .hero-text p{
    color: #bdbdbd;
-   font-size: 50px;
+   font-size: 25px;
    margin-top:20px;
 }
 
 .contact-btn{
    text-align: center;
    position: relative;
-   bottom: 30%;
-   margin-top: 10px;
+   bottom: 20%;
+   margin-top: 20px;
 }
 
 .contact-btn a{
    color: #bdbdbd;
-   font-size: 26px;
+   font-size: 15px;
    text-align:center;
    text-decoration: none;
    font-weight: bold;
    border: 4px solid #bdbdbd;
-   padding: 30px;
-   border-radius:30px;
+   padding: 10px;
+   border-radius:20px;
    transition: ease 0.5s;
 }
 
@@ -85,12 +85,12 @@
 }
 
 .about h3{
-   font-size: 40px;
+   font-size: 20px;
    text-align: center;
 }
 
 .about p{
-   font-size: 30px;
+   font-size: 15px;
    text-align: center;
    align-items: center;
    margin-top: 25px;
@@ -108,7 +108,7 @@ hr{
    display: flex;
    justify-content: center;
    align-items: center;
-   margin-top: 140px;
+   margin-top: 70px;
    flex: 1;
 
 }
@@ -118,15 +118,15 @@ hr{
 }
 
 .skills-icon{
-   width:120px;
+   width:70px;
 }
 
 .skills h3{
-   font-size: 30px;
+   font-size: 20px;
 }
 
 .skills p{
-   font-size: 30px;
+   font-size: 15px;
 }
 
 /* project section */
@@ -140,20 +140,18 @@ hr{
 }
 
 .projects h3{
-   font-size: 40px;
+   font-size: 20px;
    text-align: center;
    margin-top:80px;
 }
 
 .pro-img{
-   width:900px;
-   height:500px;
+   width:300px;
    display: block;
 }
 
 .projects .project h3{
-   font-size:30px;
-   margin-top:30px;
+   margin-top:20px;
 }
 
 .project-links{
@@ -161,13 +159,13 @@ hr{
    color:black;
    align-items: center;
    justify-content: center;
-   font-size: 25px; 
-   border: 5px solid white;
+   font-size: 15px; 
+   border: 3px solid white;
    border-radius: 10px;
-   padding: 20px;
+   padding: 5px;
    position: absolute;
    bottom: 40%;
-   right:40%;
+   right:30%;
    color: white;
    transition: ease 0.5s;
    font-weight: bold;
@@ -186,8 +184,7 @@ hr{
 .overlay{
    position: absolute; 
    bottom: 0; 
-   background: rgb(0, 0, 0);
-   background: rgba(0, 0, 0, 0.5); /* Black see-through */
+   background: rgba(0, 0, 0, 0.7); /* Black see-through */
    color: #f1f1f1; 
    width: 100%;
    transition: .5s ease;
@@ -196,7 +193,7 @@ hr{
    font-size: 20px;
    padding: 20px;
    text-align: center;
-   height: 500px;
+   height: 200px;
    top:1px;
 }
 
@@ -227,7 +224,7 @@ hr{
 }
 
 .tools img{
-   width: 150px;
+   width: 80px;
    text-align: center;
    padding: 10px;
 }
@@ -238,20 +235,20 @@ hr{
    background-color: #bdbdbd;
    width: 50%;
    margin-top: 150px;
-   padding: 60px;
+   padding: 30px;
    align-items: center;
    gap: 20px;
    justify-content: center;
 }
 
 .social-wrapper h3{
-   font-size: 32px;
+   font-size: 20px;
    font-weight: bold;
    color:#2d2b2b;
 }
 
 .social-icons img{
-   width: 80px;
+   width: 40px;
    color: #2d2b2b;
 }
 
@@ -263,32 +260,31 @@ hr{
 }
 
 .contact-section h2{
-   font-size: 60px;
+   font-size: 40px;
    color: #707070;
 }
 
 .contact-form{
-   padding:80px;
+   padding:30px;
 }
 
 input{
-   font-size: 30px;
-   padding: 20px;
+   font-size: 20px;
+   /* padding: 20px; */
    border-radius: 15px;
-   width:470px;
-   border: 4px solid #707070;
+   width:250px;
+   border: 2px solid #707070;
    text-align: center;
 }
 
 .submit-cta{
-   padding: 30px;
-   width: 200px;
-   border:4px solid #707070;
+   padding: 10px;
+   width: 100px;
+   border:2px solid #707070;
    background-color: white;
    color: #707070;
-   font-size: 30px;
    font-weight: bold;
-   border-radius: 8px;
+   border-radius: 30px;
    transition: ease .5s;
 }
 
@@ -300,17 +296,16 @@ input{
 }
 
 textarea{
-   border:4px solid #707070;
+   border:2px solid #707070;
    text-align: center;
    border-radius: 15px;
-   font-size: 30px;
    padding: 20px;
 }
 
 /* footer */
 .foot{
    text-align: center;
-   font-size: 25px;
+   font-size: 15px;
    background-color:#2d2b2b;
    padding: 25px;
    color: white;
