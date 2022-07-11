@@ -4,8 +4,9 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>L@iffDev</title>
+   <title>Latiff Mohammed Portfolio</title>
    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 </head>
 <body>
    <div class="container">
@@ -34,15 +35,16 @@
       <main>
          <!-- about section-->
          <section class="about" id="about-me">
-            <h3>ABOUT ME</h3>
-            <hr>
-            <p>
-               I'm a Web-Developer and Ui-Ux Designer. <br>
-               I had passion for technology at a young age and with time I decided to 
-              take a web-designing course in Padova. <br> I found out that I really 
-              love the client side so I'm focusing on the Front-End.<br> Have 
-              any questions? Get in touch with me.
-            </p>
+               <h3>ABOUT ME</h3>
+               <hr>
+               <div class="description">
+                  <img class="persona" src="/portfolio/images/programmer.png" alt="">
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates praesentium alias deleniti, ipsam aliquid blanditiis possimus nostrum eos reiciendis aperiam, quod quisquam earum. Cum nobis ut, officia sint vero molestiae architecto iure iusto sit quibusdam praesentium nesciunt pariatur quidem? Impedit quo voluptate fugit sed nulla velit facilis molestias quae aliquam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, beatae.
+
+                  </p>
+               </div>
+
 
             <div class="skill-wrapper">
                <div class="skills">
@@ -57,7 +59,7 @@
                </div>
                <div class="skills">
                   <img class="skills-icon" src="images/startup.png" alt="">
-                  <h3>Digital Marketing</h3>
+                  <h3>S.E.O</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, neque fugit. Est voluptate illo, neque officiis quidem architecto delectus laborum reprehenderit eveniet iusto quisquam doloribus</p>
                </div>
             </div>
@@ -73,23 +75,23 @@
                   <img class="pro-img" src="images/code.jpg" alt="">
                   <h3>WEBSITES</h3>
                   <div class="overlay">
-                     <a href="#" class="project-links">view more</a>
+                     <a href="../portfolio/projects/projects.html" class="project-links">view more</a>
                   </div>
                </div>
 
                <div class="project">
-                  <img class="pro-img" src="images/barber.jpg" alt="">
+                  <img class="pro-img" src="images/plates.jpg" alt="">
                   <h3>HTML EMAIL TEMPLATES</h3>
                   <div class="overlay">
-                     <a href="#" class="project-links">view more</a>
+                     <a href="../portfolio/email-template/template.html" class="project-links">view more</a>
                   </div>
                </div>
 
                <div class="project">
-                  <img class="pro-img" src="images/nails.jpg" alt="">
+                  <img class="pro-img" src="images/pixa.jpg" alt="">
                   <h3>LANDING PAGES</h3>
                   <div class="overlay">
-                     <a href="#" class="project-links">view more</a>
+                     <a href="../portfolio/landing-page/landing.html" class="project-links">view more</a>
                   </div>
                </div>
             </div>
@@ -98,22 +100,25 @@
          <section class="dev-tools">
             <div class="tools-wrapper">
                <div class="tools">
-                  <img src="images/html.png" alt="">
+                  <i class="devicon-html5-plain"></i>
                </div>
                <div class="tools">
-                  <img src="images/css.png" alt="">
+                  <i class="devicon-css3-plain"></i>
                </div>
                <div class="tools">
-                  <img src="images/javascript.png" alt="">
+                  <i class="devicon-javascript-plain"></i>
                </div>
                <div class="tools">
-                  <img src="images/xd.png" alt="">
+                  <i class="devicon-xd-plain"></i>
                </div>
                <div class="tools">
-                  <img src="images/github.png" alt="">
+                  <i class="devicon-github-original"></i>
                </div>
                <div class="tools">
-                  <img src="images/visual-studio.png" alt="">
+                  <i class="devicon-vscode-plain"></i>
+               </div>
+               <div class="tools">
+                  <i class="devicon-git-plain"></i>
                </div>
             </div>
          </section>
@@ -139,29 +144,34 @@
 
          <!-- contact section -->
          <section class="contact-section" id="contact-me">
-            <h2>WANT TO GET IN TOUCH AND WORK?</h2>
-            <div class="contact-form">
-               <form action="">
-                  <label for="">
-                     <input type="text" placeholder="name">
-                  </label>
-                  <br>
-                  <br>
-                  <label for="">
-                     <input type="text" placeholder="surname">
-                  </label>
-                  <br>
-                  <br>
-                  <label for="">
-                     <input type="email" placeholder="email">
-                  </label>
-                  <br>
-                  <br>
-                  <textarea name="" id="" cols="30" rows="10" placeholder="text your message here"></textarea>
-                  <br>
-                  <br>
-                  <button class="submit-cta" type="submit">Submit</button>
-               </form>
+            <h2>GET IN TOUCH AND LET'S WORK</h2>
+            <div class="contact-wrapper">
+               <div class="contact-form">
+                  <form action="">
+                     <label for="">
+                        <input type="text" placeholder="name">
+                     </label>
+                     <br>
+                     <br>
+                     <label for="">
+                        <input type="text" placeholder="surname">
+                     </label>
+                     <br>
+                     <br>
+                     <label for="">
+                        <input type="email" placeholder="email">
+                     </label>
+                     <br>
+                     <br>
+                     <textarea name="" id="" cols="50" rows="10" placeholder="text your message here"></textarea>
+                     <br>
+                     <br>
+                     <button class="submit-cta" type="submit">Submit</button>
+                  </form>
+               </div>
+               <!-- <div class="contact-image">
+                  <img src="images/okenka.jpg" alt="">
+               </div> -->
             </div>
          </section>
       </main>
