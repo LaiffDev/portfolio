@@ -1,0 +1,191 @@
+*{
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* .container{
+   width: 100%;
+   margin: auto;
+} */
+
+/* header section */
+.hero{
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../landing-page/images/pixa.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   height: 50vh;
+}
+
+.nav-bar .nav-menu{
+   display: flex;
+   list-style-type: none;
+   font-size: 15px;
+   padding: 30px;
+   align-items: center;
+   gap: 50px;
+   color: white;
+   justify-content: center;
+}
+
+.nav-menu a{
+   text-decoration: none;
+   color: white;
+}
+
+.hero-text{
+   color: white;
+   text-align: center;
+   padding: 150px;
+   font-size: 40px;
+   font-weight: bold;
+   line-height:1.5;
+}
+
+.hero-text p{
+   color: #bdbdbd;
+   font-size: 25px;
+   margin-top:20px;
+}
+
+.container{
+   position: relative;
+}
+
+.contact-btn{
+   text-align: center;
+   position: relative;
+   bottom: 20%;
+   margin-top: 20px;
+}
+
+.contact-btn a{
+   color: #bdbdbd;
+   font-size: 20px;
+   text-align:center;
+   text-decoration: none;
+   font-weight: bold;
+   border-bottom: 2px solid #bdbdbd;
+   transition: ease 0.5s;
+   position: relative;
+   margin: 20px;
+   bottom: 30px;
+   padding:10px;
+}
+
+.contact-btn a:hover{
+   background-color: black;
+   color: white;
+   border: black 4px solid;
+}
+
+/* first site */
+.wrapper{
+   display:flex;
+   margin-bottom:90px;
+   justify-content: center;
+   align-items: center;
+   
+}
+.first-site img{
+   width: 280px;
+   margin-right: 20px;
+   box-shadow: 1px 5px 5px #bbbbbbfc;
+   
+}
+
+.first-site{
+   margin-top: 50px;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   padding:50px;
+}
+
+/* second-site */
+.second-site img{
+   width: 250px;
+   margin-right: 20px;
+   box-shadow: 1px 5px 5px #bbbbbbfc;
+}
+
+.second-site{
+   margin-top: 50px;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   padding:50px;
+}
+
+.content h2{
+   margin-top: 20px;
+}
+
+.content a{
+   text-decoration: none;
+   color:#bdbdbd;
+   padding: 10px;
+   text-align: center;
+   border-radius: 5px;
+   border: 2px solid #bdbdbd;
+   transition: ease 0.5s;
+}
+
+.content a:hover{
+   background-color: black;
+   color: white;
+   border: 2px solid black;
+}
+
+.cta-live{
+   margin-right: 20px;
+}
+
+/* footer */
+.foot{
+   text-align: center;
+   font-size: 15px;
+   background-color:#2d2b2b;
+   padding: 25px;
+   color: white;
+}
+
+
+
+
+/* MEDIA QUERIES - SMARTPHONE VERSION */
+@media screen and (max-width: 600px){
+   .hero-text{
+   padding: 30px;
+    font-size: 30px;
+   }
+
+   .hero-text h1{
+      margin-top: 50px;
+   }
+
+
+   .wrapper{
+      display: block;
+      text-align: center;
+   }
+
+   .first-site, .second-site{
+      display: block;
+      margin: auto;
+      /* padding: 15px; */
+      margin-top: 20px;
+   }
+
+   .first-site img, .second-site img{
+      margin-right: 0;
+      width: 100%;
+   }
+
+   .content{
+      margin-top: 15px;
+   }
+}
