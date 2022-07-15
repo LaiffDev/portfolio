@@ -158,7 +158,7 @@
 /* MEDIA QUERIES - SMARTPHONE VERSION */
 @media screen and (max-width: 600px){
    .hero-text{
-   padding: 30px;
+   padding: 18px;
     font-size: 30px;
    }
 
