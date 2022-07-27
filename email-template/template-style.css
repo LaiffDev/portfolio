@@ -159,10 +159,8 @@
 @media screen and (max-width: 600px){
    .hero-text{
    padding: 18px;
-   font-size: 25px;
+   font-size: 20px;
    }
-
-
 
    .wrapper{
       display: block;
