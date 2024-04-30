@@ -1,19 +1,54 @@
 <div class="header-section md:grid md:grid-cols-2 overflow-hidden ">
   <!-- LEFT COLUMN -->
-  <div class="left-side p-5 bg-black bg-cover bg-no-repeat bg-center h-[50vh] md:h-[100vh]">
-    <div class="relative top-[40%] w-fit m-auto">
+  <div class="left-side bg-black bg-cover bg-no-repeat bg-center h-[70vh] md:h-[100vh]">
+    <!-- HAMBURGER MENU -->
+      <div class="hamburger-menu p-3">
+        <span class="material-symbols-rounded text-white text-5xl md:hidden cursor-pointer" (click)="toggleMenu()">
+          {{ isMenuOpen ? 'close' : 'menu' }}
+        </span>
+      </div>
+    <!-- MOBILE NAV -->
+    @if(isMenuOpen){
+      <div class="mobile-menu bg-white w-full absolute font-bold z-50 text-xs">
+        <nav>
+          <ul>
+            <a href="" class="text-center">
+              <div class="hover:bg-black hover:text-white transition-all p-5 w-full">
+                <li>About</li>
+              </div>
+            </a>
+
+            <a href="" class="text-center">
+              <div class="hover:bg-black hover:text-white transition-all p-5 w-full">
+                <li>Portfolio</li>
+              </div>
+            </a>
+
+            <a href="" class="text-center">
+              <div class="hover:bg-black hover:text-white transition-all p-5 w-full">
+                <li>Contact</li>
+              </div>
+            </a>
+          </ul>
+        </nav>
+      </div>
+    }
+    <!-- LOGO -->
+    <div class="relative top-[20%] w-fit m-auto md:top-[40%]">
       <img src="../../../assets/images/logo_white.svg" alt="" class="w-52">
     </div>
   </div>
+  <!-- /LEFT COLUMN -->
+
   <!-- RIGHT COLUMN -->
   <div class="right-side p-5">
     <!-- NAVIGATION MENU -->
     <div class="navigation absolute top-0 text-white p-5 hidden md:relative md:text-[#303030] md:flex md:justify-center">
       <nav>
-        <ul class="flex gap-20 font-bold text-sm justify-center text-[#303030]">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contact</a></li>
+        <ul class=" desktop-nav flex gap-20 font-bold text-xs justify-center text-[#303030]">
+          <li class="desktop-nav-list"><a class="nav-list" href="#">About</a></li>
+          <li class="desktop-nav-list"><a class="nav-list" href="#">Portfolio</a></li>
+          <li class="desktop-nav-list"><a class="nav-list" href="#">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -29,10 +64,14 @@
       <div class="slogan text-[#303030] text-left md:text-left">
         <h1 class="text-6xl md:text-8xl font-extrabold">In <br>creativeness <br>we trust.</h1>
         <!-- CONTACT CTA -->
-        <div class="contact-cta w-[25%] text-center bg-[#303030] text-white p-3 mt-10 rounded-full cursor-pointer hover:bg-[#5a5a5a] transition-all">
-          <p>contact me</p>
-        </div>
+        <a href="">
+          <div class="contact-cta relative bottom-[400px] left-[110px] w-[50%] text-center bg-[#1e1e1e] text-white p-3 mt-10 rounded-full cursor-pointer shadow-sm hover:bg-[#5a5a5a] transition-all md:w-[25%] md:static font-medium">
+            <p>contact me</p>
+          </div>
+        </a>
+
       </div>
     </div>
   </div>
+  <!-- /RIGHT COLUMN -->
 </div>

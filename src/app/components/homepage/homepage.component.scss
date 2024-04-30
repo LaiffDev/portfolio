@@ -2,21 +2,25 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../../../assets/images/hero4.jpg');
 }
 
-ul {
+.mobile-nav-list{
+  margin: 15px;
+  text-align: center;
+}
+
+.desktop-nav {
   padding: 0;
   list-style: none;
   display: table;
   width: 600px;
   text-align: center;
 }
-li {
+.desktop-nav-list {
   display: table-cell;
   position: relative;
   padding: 15px 0;
 }
-a {
+.nav-list {
   color: #303030;
-  text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 0.15em;
 
@@ -24,7 +28,7 @@ a {
   padding: 15px 20px;
   position: relative;
 }
-a:after {
+.nav-list:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -36,10 +40,16 @@ a:after {
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
-a:hover:after {
+.nav-list:hover:after {
   width: 100%;
   left: 0;
 }
+
+
+
+
+
+
 @media screen and (max-height: 300px) {
 	ul {
 		margin-top: 40px;
